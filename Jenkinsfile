@@ -6,6 +6,6 @@ node{
     sh 'mvn package'
   }
   stage('Email Notification'){
-    mail bcc: '', body: 'welcome to email alerts ', cc: '', from: '', replyTo: '', subject: 'jenkinsjob', to: 'learme.work@gmail.com'
+    mail bcc: '', body: 'welcome to email alerts ', cc: '', from: '', replyTo: '', subject: 'jenkinsjob', to: 'learnme.work@gmail.com'
   }
 }
